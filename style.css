@@ -1,0 +1,56 @@
+ 
+ 
+*{
+ box-sizing: border-box;
+ margin:0;
+ padding: 0;
+}
+
+
+.img-link{
+  height: 80px;   
+}
+
+li,a,button{
+    font-weight: 500;
+    font-size:16px;
+    color:black;
+    text-decoration:none;
+}
+
+header{
+display: flex;
+justify-content:flex-end ;
+align-items: center;
+padding: 30px 10%;
+}
+
+header h2{
+    margin-right: auto;
+}
+
+.nav-links {
+   list-style: none;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    padding:0px 20px ;
+}
+
+button{
+    padding: 9px 25px;
+    border-radius:50px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+}
+
+button:hover{
+    background-color: rgb(223, 238, 91);
+}
+
+.arrow{
+    height:15px;
+}
